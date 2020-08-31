@@ -37,7 +37,7 @@ class FooderController extends Component {
                         </div>
                         <div className="group">
                             <p className="title">Resource</p>
-                            <a href="/WHITEPAPER.pdf" target="_blank">Whitepaper</a>
+                            <a href="https://medium.com/ocean-defi" target="_blank">Whitepaper</a>
                             <p>Our clients</p>
                         </div>
                         <div className="group">
@@ -48,7 +48,7 @@ class FooderController extends Component {
                             </div>
                             <div className="child">
                                 <img src={Location} alt="photos"></img>
-                                <a href="https://t.me/heaven_book" target="_blank" rel="noopener noreferrer">Contact Us</a>
+                                <a href="https://t.me/oceandefi" target="_blank" rel="noopener noreferrer">Contact Us</a>
                             </div>
                         </div>
                     </div>

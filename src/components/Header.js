@@ -20,7 +20,7 @@ class Header extends Component {
     renderContact() {
         return (
             <div className="contact">
-                <a href="https://t.me/Odefi" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/oceandefi" target="_blank" rel="noopener noreferrer">
                     <img src={LogoTelegram} alt="photos"></img>
                 </a>
                 <a href="https://twitter.com/ocean_defi" target="_blank" rel="noopener noreferrer">
@@ -29,9 +29,9 @@ class Header extends Component {
                 <a href="https://medium.com/ocean-defi" target="_blank" rel="noopener noreferrer">
                     <img src={LogoM} alt="photos"></img>
                 </a>
-                {/* <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/odefi" target="_blank" rel="noopener noreferrer">
                     <img src={LogoGithub} alt="photos"></img>
-                </a> */}
+                </a>
             </div>
         )
     }
