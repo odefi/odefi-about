@@ -1,8 +1,8 @@
 import React from 'react';
 import HomeController from './controllers/HomeController';
-import PreSaleController from './controllers/PreSaleController';
 import FeatureController from './controllers/FeatureController';
 import WhyController from './controllers/WhyController';
+import OurTeamController from './controllers/OurTeamController';
 import FooderController from './controllers/FooderController';
 import ReactFullpage from '@fullpage/react-fullpage';
 
@@ -66,9 +66,6 @@ class App extends React.Component {
                                 <div className="section">
                                     <HomeController isActive={this.state.index === 1} />
                                 </div>
-                                {/* <div className="section">
-                                    <PreSaleController isActive={this.state.index === 2} />
-                                </div> */}
                                 <div className="section">
                                     <FeatureController isActive={this.state.index === 2} />
                                 </div>
@@ -76,7 +73,10 @@ class App extends React.Component {
                                     <WhyController isActive={this.state.index === 3} />
                                 </div>
                                 <div className="section">
-                                    <FooderController isActive={this.state.index === 4} />
+                                    <OurTeamController isActive={this.state.index === 4} />
+                                </div>
+                                <div className="section">
+                                    <FooderController isActive={this.state.index === 5} />
                                 </div>
                             </ReactFullpage.Wrapper>
 
