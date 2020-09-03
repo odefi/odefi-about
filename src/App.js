@@ -4,6 +4,8 @@ import FeatureController from './controllers/FeatureController';
 import WhyController from './controllers/WhyController';
 import OurTeamController from './controllers/OurTeamController';
 import FooderController from './controllers/FooderController';
+import IntroduceController from './controllers/IntroduceController'
+import OurPartnersController from './controllers/OurPartnersController'
 import ReactFullpage from '@fullpage/react-fullpage';
 
 import './assets/scss/style.scss';
@@ -31,13 +33,13 @@ class App extends React.Component {
     componentDidMount() {
         if (this.state.pathname === '/ecosystem') {
             this.setState({
-                currentIndex: 3
+                currentIndex: 4
             })
         }
 
         if (this.state.pathname === '/features') {
             this.setState({
-                currentIndex: 2
+                currentIndex: 3
             })
         }
     }
@@ -67,16 +69,22 @@ class App extends React.Component {
                                     <HomeController isActive={this.state.index === 1} />
                                 </div>
                                 <div className="section">
-                                    <FeatureController isActive={this.state.index === 2} />
+                                    <IntroduceController isActive={this.state.index === 2} />
                                 </div>
                                 <div className="section">
-                                    <WhyController isActive={this.state.index === 3} />
+                                    <FeatureController isActive={this.state.index === 3} />
                                 </div>
                                 <div className="section">
-                                    <OurTeamController isActive={this.state.index === 4} />
+                                    <WhyController isActive={this.state.index === 4} />
                                 </div>
                                 <div className="section">
-                                    <FooderController isActive={this.state.index === 5} />
+                                    <OurTeamController isActive={this.state.index === 5} />
+                                </div>
+                                <div className="section">
+                                    <OurPartnersController isActive={this.state.index === 6} />
+                                </div>
+                                <div className="section">
+                                    <FooderController isActive={this.state.index === 7} />
                                 </div>
                             </ReactFullpage.Wrapper>
 
@@ -89,12 +97,12 @@ class App extends React.Component {
 
     renderPc = () => {
 
-        if (this.state.currentIndex === 2) {
-            return this.renderHomePage(2)
-        }
-
         if (this.state.currentIndex === 3) {
             return this.renderHomePage(3)
+        }
+
+        if (this.state.currentIndex === 4) {
+            return this.renderHomePage(4)
         }
 
         return this.renderHomePage()
@@ -107,8 +115,10 @@ class App extends React.Component {
             <React.Fragment>
                 <Header pathname={pathname} isMobile={this.state.isMobile} />
                 <HomeController />
+                <IntroduceController></IntroduceController>
                 <FeatureController />
                 <WhyController />
+                <OurPartnersController></OurPartnersController>
                 <FooderController />
             </React.Fragment>
         )
