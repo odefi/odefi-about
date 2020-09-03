@@ -6,6 +6,7 @@ import LogoM from '../assets/img/IconM.svg'
 import LogoTelegram from '../assets/img/IconTelegram.svg'
 import LogoTwitter from '../assets/img/IconTweett.svg'
 import Logo from '../assets/img/logo.svg'
+import LogoYoutube from '../assets/img/Group 8130.svg'
 
 class Header extends Component {
     constructor(props) {
@@ -31,6 +32,9 @@ class Header extends Component {
                 </a>
                 <a href="https://github.com/odefi" target="_blank" rel="noopener noreferrer">
                     <img src={LogoGithub} alt="photos"></img>
+                </a>
+                <a href="https://www.youtube.com/channel/UCIcmX33f-I3L-vfAL0q29Bw" target="_blank" rel="noopener noreferrer">
+                    <img src={LogoYoutube} alt="photos"></img>
                 </a>
             </div>
         )
