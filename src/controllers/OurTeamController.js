@@ -19,7 +19,7 @@ class OurTeamController extends Component {
 
         this.state = {
             dataTop: [{
-                name: 'Rober Ad',
+                name: 'Robert Ad',
                 type: 'Project Lead',
                 content: 'A serial entrepreneur & blockchain enthusiast, Robert has been active in the tech industry generally and blockchain space specifically for over 5 years. He thought of the idea of building an efficient ecosystem for decentralized applications back in 2017. He and his team finally made it happen by giving birth to Empow Network, the ultra-fast blockchain that can support nearly 10,000 TPS. He also stood behind the birth of Empow.io - the first visual social network in the blockchain space - with nearly 5,000 daily active users at the moment. In December 2019, comprehending the current problems in DeFi sector, he started Ocean DeFi as the all-in-one DeFi platform.',
                 linkedin: 'https://www.linkedin.com/in/thinkerempow/',
@@ -29,7 +29,8 @@ class OurTeamController extends Component {
                 name: 'Han Jason',
                 type: 'Marketing Lead',
                 content: 'He has been in the crypto space for 3 years as an investor, community leader, and crypto writer. Now he is the admin of 2 crypto-focus communities in South East Asia with nearly 20K members each. He has a wide network within mainstream outlets in SEA since he was one of the first columnists writing about crypto & blockchain there back in 2017. He was also the Growth Project Owner at Incognito, a $13M-cap privacy project got funded by Binance X Fellowship. Han joined Empow Network’s team in mid 2019, contributing to the growth of the blockchain Empow and the dapp Empow.io. Now he is keeping his previous role at Ocean DeFi.',
-                linkedin: 'https://www.linkedin.com/in/jason-han-3938261b5/'
+                linkedin: 'https://www.linkedin.com/in/han-jason-3938261b5/',
+                telegram: 'https://t.me/han_jayy'
             },
             {
                 name: 'Shibashish Nandi',
