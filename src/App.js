@@ -77,14 +77,14 @@ class App extends React.Component {
                                 <div className="section">
                                     <WhyController isActive={this.state.index === 4} />
                                 </div>
-                                <div className="section">
+                                {/* <div className="section">
                                     <OurTeamController isActive={this.state.index === 5} />
+                                </div> */}
+                                <div className="section">
+                                    <OurPartnersController isActive={this.state.index === 5} />
                                 </div>
                                 <div className="section">
-                                    <OurPartnersController isActive={this.state.index === 6} />
-                                </div>
-                                <div className="section">
-                                    <FooderController isActive={this.state.index === 7} />
+                                    <FooderController isActive={this.state.index === 6} />
                                 </div>
                             </ReactFullpage.Wrapper>
 
